@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+.proper-des{
+    position: absolute;
+    top:3%;
+    left:10%;
+    margin-top:40px;
+    padding:20px;
+    width:400px;
+    height:270px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+    transition: 2s;
+    
+   }
+   .bus_name{
+    margin-bottom: 10px;
+   }
+   .proper-des h3{
+    display: inline;
+   }
+
+   .proper-des h2{
+    margin-bottom: 15px;
+   }
+
+   .proper-des {
+    font-size: 1.2rem;
+   }
+   .bus{
+    margin-top: 20px;
+    
+   }
+   .bus a:hover{
+    background-color: dimgrey;
+    color: white;
+   }
+   .proper-des a{
+
+
+    text-decoration: none;
+    font-size: 1.3rem;
+  
+
+
+    padding: 10px;
+    background-color: aquamarine;
+    color: black;
+   }
+
+
+   .proper-des:hover{
+   
+   }

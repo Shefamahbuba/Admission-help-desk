@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     margin-left: 70px;
+
+   
+  
+}
+
+.sql-fetch{
+    text-decoration: none;
+    display:flex;
+    color:black;
+    margin: 65px;
+    margin-top: 15px;
+    width:70%;
+    height: 250px;
+    box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+.sql-fetch .size {
+    display:flex;
+    width:70%;
+    
+}
+.sql-fetch .size .picture img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height:200px;
+    
+    margin:15px;
+    margin-left:25px ;
+    padding:15px;
+    cursor: pointer;
+
+}
+.sql-fetch .size .desc{
+    visibility: hidden;
+    text-decoration: none;
+    margin-top: 75px;
+    font-size: 1.2rem;
+    background-color: rgba(0,0,0,0.7);
+  color: aquamarine;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 6px;
+  height:175px;
+  position: absolute;
+  z-index: 1;
+    
+}
+
+.sql-fetch .size .desc a{
+    margin-top:80px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:white;
+    padding:5px;
+    
+
+    
+}
+
+
+.more-link{
+  margin-top: 15px;
+  height: 70px;
+}
+.sql-fetch .size .desc a:hover{
+    color:grey;
+}
+.desc .image_name{
+    margin-top:20px;
+}
+
+.sql-fetch:hover{
+    transform: translateY(15px);
+
+
+}
+.sql-fetch:hover .desc{
+    visibility: visible;
+
+}

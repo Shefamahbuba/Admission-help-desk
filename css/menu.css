@@ -1,0 +1,16 @@
+.menu{
+    margin-top: 120px;
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+}.sql-fetch{
+    text-decoration: none;
+    
+    color:black;
+    margin: 65px;
+    margin-top:120px;
+    width:60%;
+    height: 250px;
+    box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+    transition: 1s;
+    overflow-x: hidden;
+}

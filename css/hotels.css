@@ -1,0 +1,288 @@
+*{
+    overflow-x: hidden;
+
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+   background-color: white;
+    
+}
+.nav{
+    background-color:rgb(0, 0, 0);
+    opacity:0.95;
+    width:100%;
+    height:13%;
+    position:absolute;
+    left:0;
+    top:0;
+    display:flex;
+    align-items:center;
+    justify-items:center;
+
+
+}
+.nav .logo{
+    color:#fffff9;
+    font-size: 2rem;
+    margin-left:5rem;
+   
+
+}
+.nav .nav-bar
+{
+    position: absolute;
+    left:50%;
+    top:-12%;
+    display:flex;
+    color:aquamarine;
+   
+
+
+   
+
+}
+.nav-bar {
+    position: absolute;
+    top:-15%;
+    left:25%;
+    margin:1.1rem;
+    padding:1.1rem;
+    list-style: none;
+    margin-right: 1.3rem
+
+;
+}
+.nav-bar li{
+    margin-left: 1.5rem;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color:aquamarine;
+    font-size: 1.3rem;
+}
+.nav-bar li a:hover{
+    color:white;
+   
+
+
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+     margin-left: 70px;
+
+   
+  
+}
+
+.sql-fetch{
+    text-decoration: none;
+    display:flex;
+    color:black;
+    margin: 65px;
+    margin-top: 120px;
+    width:70%;
+    height: 350px;
+    box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+.sql-fetch .size {
+    margin-top: 35px;
+    
+    display:flex;
+    width:50%;
+    
+}
+
+.sql-fetch .size .picture img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:200px;
+    
+    margin:15px;
+    margin-left:25px ;
+
+  
+    cursor: pointer;
+
+}
+.sql-fetch .size .proper-des{
+    visibility: hidden;
+    text-decoration: none;
+    margin-top:0;
+    font-size: 1.2rem;
+    background-color: rgba(0,0,0,0.7);
+  color: aquamarine;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  height:315px;
+  width:100%;
+  position: absolute;
+  z-index: 1;
+    
+}
+
+.sql-fetch .size .proper-des a{
+
+   
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:white;
+    padding:5px;
+    margin-bottom:10px ;
+    
+
+    
+}
+
+
+.more-link{
+  margin-top: 15px;
+  height: 70px;
+}
+.sql-fetch .size .proper-des a:hover{
+    color:grey;
+}
+.proper-des.image_name{
+    margin-top:20px;
+}
+
+.sql-fetch:hover{
+    transform: translateY(15px);
+
+
+}
+.sql-fetch:hover .proper-des{
+    visibility: visible;
+
+}
+.book{
+    margin:10px;
+    padding:5px;
+    background-color: aquamarine;
+}
+.contact{
+    
+    margin-top: 10px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+.contact i{
+   font-size: 1.1rem;
+    margin-right: 20px;
+   
+
+
+}
+.contact i:hover{
+    color:aquamarine;
+    
+}
+
+
+#book-now{
+    position:absolute;
+    top:40%;
+    left:30%;
+    background-color: rgba(0,0,0,0.7);
+    height: 50vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    color:white;
+
+}
+#book-now form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height:500px;
+
+}
+
+#book-now form input{
+    
+    width:250px;
+    height:30px;
+    margin:5px;
+    padding:3px;
+    font-size: 1.1rem;
+    font-weight: 1.2rem;
+    
+}
+#book-now form label{
+    
+    display: inline;
+    margin:5px;
+    padding:3px;
+    font-size: 1.1rem;
+    font-weight: 1.2rem;
+    
+}
+
+
+
+#book-now form button{
+    width:110px;
+    height:55px;
+    margin:15px;
+    padding:4px;
+    font-size: 1.3rem;
+    font-weight: 1.3rem;
+    background-color: aquamarine;
+    color: black;
+}
+
+
+
+#book-now form button:hover{
+
+     background-color: dimgray;
+     color:white;
+     cursor: pointer;
+
+
+}
+
+.cross{
+
+    position: absolute;
+    top:3%;
+    right: 3%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#book-now{
+    visibility: hidden;
+}
+.book:hover>#book-now{
+    visibility: visible;
+
+
+}
+.search button{
+    padding:5px;
+    background-color: aquamarine;
+    color: black;
+    border:solid 1px black;
+    border-radius:25%;
+    cursor: pointer;
+
+}
+.search button:hover{
+    background-color: azure;
+}
